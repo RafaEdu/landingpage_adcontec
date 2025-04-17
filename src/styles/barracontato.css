@@ -15,7 +15,7 @@
 .telefone {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     font-size: 16px;
     font-weight: 550;
     color: #ffffff;
@@ -36,7 +36,7 @@
 
 .redesSociais {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -53,4 +53,33 @@
 
 .icones:hover {
     transform: scale(1.2);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .barraContato {
+        padding: 10px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .barraContato {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 30px;
+    }
+
+    .telefone {
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .redesSociais {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icones {
+        font-size: 20px;
+    }
 }
