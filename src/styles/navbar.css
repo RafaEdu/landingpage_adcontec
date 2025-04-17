@@ -8,12 +8,13 @@
     background-color: white;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 9999;
+    height: 100px;
 }
 
 .logo img {
     width: auto;
-    height: 150px;
+    height: 120px;
 }
 
 .lista {
@@ -25,8 +26,8 @@
 }
 
 .opcoes {
-    font-size: 17px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 550;
     color: #333;
     cursor: pointer;
     transition: color 0.3s ease;

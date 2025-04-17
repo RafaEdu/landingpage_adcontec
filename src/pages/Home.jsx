@@ -1,13 +1,12 @@
 import Reac from 'react';
-import Example from '../components/Example';
 import Navbar from '../components/Navbar';
+import BarraContato from '../components/BarraContato';
 
 const Home = () => {
     return (
         <div>
             <Navbar />
-            <h1>Bem vindo a AD CONTEC</h1>
-            <Example />
+            <BarraContato />
         </div>
     );
 };
